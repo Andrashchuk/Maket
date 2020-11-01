@@ -16,7 +16,12 @@ h1{
 p{
 	color: #445162;
 
-	
+}
+
+a{
+	text-decoration: none;
+	color: white;
+	display: block;
 }
 
 /*HEADER*/
@@ -62,11 +67,11 @@ ul {
 	font-style: normal;
 }
 li{
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 	margin-left: -45px;
 }
 .fas{
-	margin-right: 2px;
+	margin-right: 10px;
 	float: left;
 }
 
@@ -133,13 +138,13 @@ li{
 }
 
 .flex_text{
-	margin: 0px 0px 30px 40px;
+	margin: -1px 0px 30px 40px;
 }
 
 i.fa-plus-square{
 	color: #445162;
-	width: 50px;
-	height: 50px;
+	font-size: 40px;
+	border-radius: 0px;
 }
 
 
@@ -320,7 +325,6 @@ i.fa-plus-square{
 }
 
 .standart_price {
-  font-weight: normal;
   text-align: center;
   color: #445162;
   background-color: #fff;
@@ -330,9 +334,10 @@ i.fa-plus-square{
 
 .standart_list {
   color: #fff;
-  line-height: 0.5;
+  line-height: 1.2;
   font-size: 13px;
   margin: 20px 0px 0px 40px;
+ 
 }
 
 .standart_button {
@@ -344,14 +349,14 @@ i.fa-plus-square{
   font-weight: bold;
   font-size: 16px;
   color: #445162;
-  margin: 10px 0px 0px 20px;
+  margin: 20px 0px 0px 20px;
 }
 
 .preimium{
   background-color: #445162; 
   width: 300px;
   height: 400px;
-  margin: -483px 0px 0px 545px;
+  margin: -417px 0px 0px 545px;
   border-radius: 5px;
 
 }
@@ -365,7 +370,7 @@ i.fa-plus-square{
   font-weight: bold;
   font-size: 16px;
   color: #445162;
-  margin: 110px 0px 0px 20px;
+  margin: 20px 0px 0px 20px;
 
 }
 
@@ -378,7 +383,7 @@ i.fa-plus-square{
 }
 
 .lux_button{
-	width: 260px;
+  width: 260px;
   height: 40px;
   border-radius: 5px;
   border: 0px;
@@ -386,5 +391,126 @@ i.fa-plus-square{
   font-weight: bold;
   font-size: 16px;
   color: #445162;
-  margin: 210px 0px 0px 20px;
+  margin: 20px 0px 0px 20px;
+}
+
+.footer_content{
+	width: 1280px;
+	height: 510px;
+	background-color: #445162;
+	padding: 50px 50px 0px 50px;
+}
+
+.title_center_white{
+	color: white;
+	text-align: center;
+	padding-bottom: 30px;
+
+}
+
+.fname{
+  width: 500px;
+  height: 40px;
+  display: block;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  border: 0px;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.email{
+  width: 500px;
+  height: 40px;
+  display: block;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  border: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.message{
+  width: 500px;
+  height: 170px;
+  display: block;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  border: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.forms{
+	margin: 0px 0px 0px 260px;
+}
+
+.send_button{
+
+  width: 140px;
+  height: 40px;
+  border-radius: 5px;
+  border: 0px;
+  background-color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  color: #445162;
+  margin: 0px 0px 0px 440px;
+
+}
+
+.links_content{
+	margin: -365px 0px 0px 800px;
+
+}
+
+.fab{
+  text-decoration: none;
+  color: #FFF;
+  font-size: 30px;
+  display: block;
+  padding: 10px;
+  }
+  .iconify {
+  font-size: 30px;
+  display: block;
+  float: left;
+  margin: -5px 5px 0 0;
+}
+
+.icq {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.sign {
+  font-size: 30px;
+  display: block;
+  float: left;
+  margin: -10px 5px 0px 12px;
+}
+
+.email_icon{
+	margin: 15px 0px 0px 0px;
+}
+
+.phone {
+  
+  font-size: 13px;
+  margin: 20px 0px 0px 10px;
+}
+
+.icons{
+	margin: 40px 0px 0px 10px;
+}
+
+.twitter,
+.facebook,
+.linkedin,
+.google {
+  font-size: 45px;
+}
+.youtube{
+	font-size: 55px;
+	margin: -10px 0px 0px -5px;
 }
